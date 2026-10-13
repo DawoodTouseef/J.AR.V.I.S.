@@ -30,6 +30,7 @@ import os
 import re
 from typing import  List
 from datetime import datetime
+from pydantic import BaseModel, Field
 from config import SESSION_PATH
 from jarvis_integration.models.users import Users
 from core.Agent_models import get_model_from_database
